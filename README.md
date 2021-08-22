@@ -43,6 +43,7 @@ pbar.updatebar(title = None, value = None, width = None, char = None, uchar = No
 ```python
 ###EXAMPLE###
 import time
+from MibiProgressbar import *
 
 pbar = progressbar(title = "Demo", value = "0")
 pbar.buildbar()
