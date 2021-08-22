@@ -12,10 +12,30 @@ Display a progress bar in your terminal !
 ```python
 from MibiProgressbar import *
 ```
+
+## New progressbar
+```python
+pbar = progressbar(title = "Progress", value = 0, width = 10, char = "█", uchar = "-", after = "")
+```
 ## Build them
 
 ```python
 pbar = pbar.buildbar()
+```
+## Display them
+
+```python
+pbar.displaybar()
+```
+## Get them
+
+```python
+text = pbar.getbar()
+```
+## Update them
+
+```python
+pbar.updatebar(title = None, value = None, width = None, char = None, uchar = None, after = None)
 ```
 
 ## Example
